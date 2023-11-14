@@ -112,6 +112,28 @@ body#body.forced_background.white {
     }
 }
 
+@media (any-pointer: fine) {
+    
+    .anyPointerAble {
+        display: block;
+    }
+    
+    .anyPointerDisable {
+        display: none;
+    }
+    
+}
+
+@media (any-pointer: none) {
+    .anyPointerAble {
+        display: none;
+    }
+    
+    .anyPointerDisable {
+        display: block;
+    }
+}
+
 /* root-------------------------------------- */
 /* ------------------------------------------ */
 /* media------------------------------------- */
