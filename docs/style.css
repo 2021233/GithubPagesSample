@@ -90,6 +90,28 @@ body#body.forced_background.white {
     }
 }
 
+@media (any-hover: hover) {
+    
+    .anyHoverAble {
+        display: block;
+    }
+    
+    .anyHoverDisable {
+        display: none;
+    }
+    
+}
+
+@media (any-hover: none) {
+    .anyHoverAble {
+        display: none;
+    }
+    
+    .anyHoverDisable {
+        display: block;
+    }
+}
+
 /* root-------------------------------------- */
 /* ------------------------------------------ */
 /* media------------------------------------- */
