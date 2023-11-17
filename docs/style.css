@@ -71,6 +71,7 @@ body#body.forced_background.white {
 
 p {
     display: none;
+    font-size: 60px;
 }
 
 @media (hover: hover) {
