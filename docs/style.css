@@ -29,6 +29,7 @@ h6 {
 
     font-size: unset;
 }
+
 a,
 a:visited,
 a:hover {
@@ -65,71 +66,51 @@ body {
 }
 
 body#body.forced_background.white {
-    background-color: #fff!important;
+    background-color: #fff !important;
+}
+
+p {
+    display: none;
 }
 
 @media (hover: hover) {
-    
     .hoverAble {
         display: block;
     }
-    
-    .hoverDisable {
-        display: none;
-    }
-    
 }
 
 @media (hover: none) {
-    .hoverAble {
-        display: none;
-    }
-    
     .hoverDisable {
         display: block;
     }
 }
 
 @media (any-hover: hover) {
-    
     .anyHoverAble {
         display: block;
     }
-    
-    .anyHoverDisable {
-        display: none;
-    }
-    
 }
 
 @media (any-hover: none) {
-    .anyHoverAble {
-        display: none;
-    }
-    
     .anyHoverDisable {
         display: block;
     }
 }
 
 @media (any-pointer: fine) {
-    
-    .anyPointerAble {
+    .anyPointerFine {
         display: block;
     }
-    
-    .anyPointerDisable {
-        display: none;
+}
+
+@media (any-pointer: coarse) {
+    .anyPointerCoarse {
+        display: block;
     }
-    
 }
 
 @media (any-pointer: none) {
-    .anyPointerAble {
-        display: none;
-    }
-    
-    .anyPointerDisable {
+    .anyPointerNone {
         display: block;
     }
 }
